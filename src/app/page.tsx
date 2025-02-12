@@ -9,13 +9,12 @@ import {
 } from "@/components/ui/card"
 import { DarkmodeButton } from "@/components/ui/darkmode-button";
 import EmailCollection from "@/components/EmailCollection";
-import 'dotenv/config'
 
 
 export default function Home() {
   return (
     <>
-      <nav className="flex px-6 justify-between items-center py-4  bg-background-primary">
+      <nav className="flex px-6 justify-between items-center py-4 bg-background-primary">
         <span className="font-quicksand font-bold text-2xl text-black-background-primary ">FlowDSA</span>
         <ul className="hidden lg:flex lg:text-lg items-center font-comfortaa gap-8 text-base">
           <DarkmodeButton />
@@ -136,7 +135,7 @@ export default function Home() {
             <p className="text-black-text-primary max-w-md font-semibold">Congratulations! You just completed a Data structure. Of course, the process wont be as simple as described here. There will be moments where you will quite literally get a headache. But that is when you know you are learning.</p>
           </div>
 
-          <h1 className="mt-24 text-3xl font-semibold text-center  text-black-background-primary ">We just have one request</h1>
+          <h1 className="mt-24 text-3xl font-semibold text-center  text-black-background-primary ">So there's just one thing left to do</h1>
           <p className="font-semibold text-center text-lg text-black-text-primary mt-12">
             Stick with us. You will get tempted to try out a new resource or a new video explaining a different technique. We definitely dont mind this and even encourage you to try out several sources of learning. But do come back and stick to the patterns and problems and <span className="text-black underline underline-offset-8">complete the course</span>. We promise you, it will have an impact.
           </p>
@@ -146,7 +145,7 @@ export default function Home() {
       </section>
 
       {/*Collect Email section*/}
-      <section className="h-2/5 bg-background-secondary">
+      <section className="h-2/5 bg-background-secondary pb-24">
         <EmailCollection />
       </section>
 

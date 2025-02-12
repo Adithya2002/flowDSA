@@ -14,6 +14,7 @@ export default function EmailCollection() {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
+  console.log(email)
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -29,12 +30,12 @@ export default function EmailCollection() {
     // Insert into Supabase
     const { data, error } = await supabase
       .from("emails")
-      .insert([{ email }]);
+      .insert([{ email:email }]);
 
     if (error) {
       setMessage("❌ Error saving email.");
     } else {
-      setMessage("✅ Email saved successfully!");
+      setMessage("Email saved successfully!");
       setEmail(""); // Clear input after submission
     }
 
@@ -42,23 +43,23 @@ export default function EmailCollection() {
   };
 
   return (
-    <div className="flex flex-col items-center bg-gray-100 p-6 rounded-2xl shadow-lg max-w-md mx-auto">
+    <div className="flex border flex-col items-center bg-white p-6 rounded-2xl shadow-lg max-w-md mx-auto font-quicksand">
       <h2 className="text-xl font-semibold mb-4 text-gray-800">
         Stay Updated 🚀
       </h2>
-      <p className="text-gray-600 text-sm mb-4">
+      <p className="text-gray-600 text-sm mb-4 font-semibold">
         Subscribe to get the latest updates straight to your inbox.
       </p>
       <form onSubmit={handleSubmit} className="w-full flex gap-2">
         <Input
           type="email"
           placeholder="Enter your email"
-          className="flex-1 p-2 border rounded-lg"
+          className="flex-1 p-2 border rounded-lg text-black-background-primary"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
-        <Button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded-lg" disabled={loading}>
+        <Button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-300" disabled={loading}>
           {loading ? "Submitting..." : "Subscribe"}
         </Button>
       </form>
