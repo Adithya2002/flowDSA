@@ -12,6 +12,31 @@ export default {
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+			"background-primary": "hsl(var(--background-primary))",
+		    "background-secondary": "hsl(var(--background-secondary))",
+			"background-accent": "hsl(var(--background-accent))",
+			"brown-accent": "hsl(var(--brown-accent))",
+			"black-background-primary": "hsl(var(--black-background-primary))",
+			"black-text-primary": "hsl(var(--black-text-primary))",
+			"black-text-secondary": "hsl(var(--black-text-secondary))",
+			"black-text-accent": "hsl(var(--black-text-accent))",
+			"dark-layer-1": "rgb(40,40,40)",
+			"dark-layer-2": "rgb(26,26,26)",
+			"dark-label-2": "rgba(239, 241, 246, 0.75)",
+			"dark-divider-border-2": "rgb(61, 61, 61)",
+			"dark-fill-2": "hsla(0,0%,100%,.14)",
+			"dark-fill-3": "hsla(0,0%,100%,.1)",
+			"dark-gray-6": "rgb(138, 138, 138)",
+			"dark-gray-7": "rgb(179, 179, 179)",
+			"gray-8": "rgb(38, 38, 38)",
+			"dark-gray-8": "rgb(219, 219, 219)",
+			"brand-orange": "rgb(255 161 22)",
+			"brand-orange-s": "rgb(193, 122, 15)",
+			"dark-yellow": "rgb(255 192 30)",
+			"dark-pink": "rgb(255 55 95)",
+			 olive: "rgb(0, 184, 163)",
+			"dark-green-s": "rgb(44 187 93)",
+			"dark-blue-s": "rgb(10 132 255)",
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
@@ -51,6 +76,11 @@ export default {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
+		fontFamily: {
+			raleway: ['var(--font-raleway)'],
+			comfortaa:['var(--font-comfortaa)'],
+			quicksand:['var(--font-quicksand)']
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
