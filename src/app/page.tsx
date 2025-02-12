@@ -8,6 +8,8 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { DarkmodeButton } from "@/components/ui/darkmode-button";
+import EmailCollection from "@/components/EmailCollection";
+import 'dotenv/config'
 
 
 export default function Home() {
@@ -76,7 +78,7 @@ export default function Home() {
 
 
 
-{/* WHAT IS SPECIAL ABOUT US */}
+        {/* WHAT IS SPECIAL ABOUT US */}
         {/* <h1 className="font-raleway text-3xl text-black-background-primary text-center mt-20">What is special about us?</h1>
         <p className="mt-12 text-black-text-primary text-center font-semibold max-w-2xl">Our platform uses pattern-based learning to help you recognize problem-solving techniques. By focusing on core patterns, you'll learn to tackle a wide range of problems with confidence—whether you're preparing for coding interviews or strengthening your problem-solving skills.</p>
         <p className="relative overflow-hidden bg-black-background-primary font-quicksand font-semibold rounded-full px-10 text-white flex py-3 mt-10 group">
@@ -143,7 +145,10 @@ export default function Home() {
         <p className="text-md mt-12 mb-8 text-black-text-secondary font-comfortaa">//Let's start learning</p>
       </section>
 
-      {/* Why are we needed Section*/}
+      {/*Collect Email section*/}
+      <section className="h-2/5 bg-background-secondary">
+        <EmailCollection />
+      </section>
 
 
     </>
