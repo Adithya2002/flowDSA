@@ -1,12 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
 import { DarkmodeButton } from "@/components/ui/darkmode-button";
 import EmailCollection from "@/components/EmailCollection";
 
