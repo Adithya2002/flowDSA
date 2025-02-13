@@ -16,7 +16,7 @@ export default function EmailCollection() {
   const [message, setMessage] = useState("");
   console.log(email)
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
     setMessage("");
