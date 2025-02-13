@@ -5,7 +5,6 @@ import {
     ResizablePanelGroup,
 } from "@/components/ui/resizable"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { Separator } from "@/components/ui/separator"
 import ProblemDescription from '@/components/ProblemDescription'
 
 // const tags = Array.from({ length: 50 }).map(

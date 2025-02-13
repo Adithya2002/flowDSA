@@ -28,7 +28,7 @@ export default function EmailCollection() {
     }
 
     // Insert into Supabase
-    const { data, error } = await supabase
+    const { error } = await supabase
       .from("emails")
       .insert([{ email:email }]);
 
