@@ -31,7 +31,7 @@ const ProcessSection = () => {
                     </p>
                 </div>
                 <div className="border-t mt-12 border-black w-80"></div>
-                <p className="text-md mt-12 mb-8 text-black-text-secondary font-comfortaa">//Let's start learning</p>
+                <p className="text-md mt-12 mb-8 text-black-text-secondary font-comfortaa">#Let's start learning</p>
             </section>
         </>
     )

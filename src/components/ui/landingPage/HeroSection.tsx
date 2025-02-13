@@ -6,7 +6,7 @@ const HeroSection = () => {
     return (
         <>
             <section className="flex flex-col items-center text-center bg-background-primary h-[90vh] pt-12">
-                <p className="text-lg text-black-text-secondary font-comfortaa">//Finish your journey now</p>
+                <p className="text-lg text-black-text-secondary font-comfortaa">#Finish your journey now</p>
                 <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-raleway text-black lg:leading-snug mt-4">Complete your unfinished <br /> Data structures and Algorithms Journey</h1>
                 <p className="text-sm sm:text-md md:text-lg lg:text-2xl font-quicksand text-black-text-primary font-semibold mt-8">We know how many times you have "started" doing DSA. <br /> Let us help you finish it this time</p>
                 <button className="bg-black-background-primary font-quicksand font-semibold rounded-full px-10 text-white flex items-center py-3 mt-10 group transition-all duration-300">
