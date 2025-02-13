@@ -11,8 +11,6 @@ import CodeMirror from '@uiw/react-codemirror';
 import {vscodeDark} from '@uiw/codemirror-theme-vscode';
 import {python} from "@codemirror/lang-python"
 
-
-
 const ProblemPage = () => {
     return (
         <ResizablePanelGroup

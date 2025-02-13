@@ -1,0 +1,31 @@
+ {/* WHAT IS SPECIAL ABOUT US */}
+        {/* <h1 className="font-raleway text-3xl text-black-background-primary text-center mt-20">What is special about us?</h1>
+        <p className="mt-12 text-black-text-primary text-center font-semibold max-w-2xl">Our platform uses pattern-based learning to help you recognize problem-solving techniques. By focusing on core patterns, you'll learn to tackle a wide range of problems with confidence—whether you're preparing for coding interviews or strengthening your problem-solving skills.</p>
+        <p className="relative overflow-hidden bg-black-background-primary font-quicksand font-semibold rounded-full px-10 text-white flex py-3 mt-10 group">
+          Productivity Hacks
+          <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 ease-in-out"></span>
+        </p> */}
+
+        {/* Cards */}
+
+        {/* <div className="flex max-sm:flex-col gap-10  mt-12">
+          <Card className="max-w-md bg-background-primary min-h-72">
+            <CardHeader className="text-center font-semibold text-xl  text-black-background-primary ">Habit stacking</CardHeader>
+            <CardContent className="text-center font-quicksand font-semibold text-black-text-primary">Link problem-solving to an existing habit to make practice effortless. For example, solve one LeetCode problem right after your morning coffee or before starting work. By embedding DSA into your daily routine, it becomes a natural part of your day.</CardContent>
+          </Card>
+          <Card className="max-w-md bg-background-accent min-h-72">
+            <CardHeader className="text-center font-semibold text-xl  text-black-background-primary ">Maintain Streaks</CardHeader>
+            <CardContent className="text-center font-quicksand font-semibold text-black-text-primary">Tracking progress with streaks helps reinforce consistency. Whether it’s solving one problem daily or completing a set number of challenges per week, maintaining a streak keeps you accountable and motivated. Small, consistent efforts lead to long-term mastery.</CardContent>
+          </Card>
+        </div>
+
+        <div className="flex max-sm:flex-col  gap-10  mt-12">
+          <Card className="max-w-md bg-brown-accent text-background-accent min-h-72">
+            <CardHeader className="text-center font-semibold text-xl">Two-Minute Rule</CardHeader>
+            <CardContent className="text-center font-quicksand font-semibold text-yellow-50">Getting started is often the hardest part. The two-minute rule helps overcome procrastination—commit to just reading the problem statement or setting up the code template. Once you begin, momentum naturally carries you forward.</CardContent>
+          </Card>
+          <Card className="max-w-md min-h-72">
+            <CardHeader className="text-center font-semibold text-xl">Deliberate Practice</CardHeader>
+            <CardContent className="text-center font-quicksand font-semibold text-black-text-secondary">Instead of solving random problems, focus on deliberate practice—working on progressively harder problems and analyzing patterns. Struggle is essential for growth, so step out of your comfort zone and push your problem-solving skills further</CardContent>
+          </Card>
+        </div> */}

@@ -7,10 +7,6 @@ import {
 import { ScrollArea } from "@/components/ui/scroll-area"
 import ProblemDescription from '@/components/ProblemDescription'
 
-// const tags = Array.from({ length: 50 }).map(
-//     (_, i, a) => `v1.2.0-beta.${a.length - i}`
-// )
-
 const page = () => {
     return (
         <ResizablePanelGroup
