@@ -1,4 +1,3 @@
-import { DarkmodeButton } from "@/components/ui/darkmode-button";
 import EmailCollection from "@/components/EmailCollection";
 import HeroSection from "@/components/ui/landingPage/HeroSection";
 import AboutUsSection from "@/components/ui/landingPage/AboutUsSection";
