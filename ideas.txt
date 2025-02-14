@@ -1,3 +1,11 @@
+                         <button className="bg-background-secondary font-quicksand font-semibold rounded-full px-6 py-3 text-black-background-primary flex items-center justify-center mt-6 group transition-all duration-300">
+                            Get Started
+                            <span className="ml-2 transform transition-transform duration-300 group-hover:translate-x-1">
+                                <ArrowRight />
+                            </span>
+                        </button>
+ 
+ 
  {/* WHAT IS SPECIAL ABOUT US */}
         {/* <h1 className="font-raleway text-3xl text-black-background-primary text-center mt-20">What is special about us?</h1>
         <p className="mt-12 text-black-text-primary text-center font-semibold max-w-2xl">Our platform uses pattern-based learning to help you recognize problem-solving techniques. By focusing on core patterns, you'll learn to tackle a wide range of problems with confidence—whether you're preparing for coding interviews or strengthening your problem-solving skills.</p>

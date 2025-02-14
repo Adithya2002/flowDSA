@@ -1,20 +1,23 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
 import { ArrowRight } from "lucide-react";
+import Link from 'next/link';
 
 const HeroSection = () => {
     return (
         <>
-            <section className="flex flex-col items-center text-center bg-background-primary h-[90vh] pt-12">
+            <section className="px-6 flex flex-col items-center text-center bg-background-primary h-[90vh] pt-12">
                 <p className="text-lg text-black-text-secondary font-comfortaa">#Finish your journey now</p>
-                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-raleway text-black lg:leading-snug mt-4">Complete your unfinished <br /> Data structures and Algorithms Journey</h1>
+                <h1 className="text-2xl  md:text-3xl lg:text-5xl font-raleway text-black lg:leading-snug mt-4">Complete your unfinished <br /> Data structures and Algorithms Journey</h1>
                 <p className="text-sm sm:text-md md:text-lg lg:text-2xl font-quicksand text-black-text-primary font-semibold mt-8">We know how many times you have "started" doing DSA. <br /> Let us help you finish it this time</p>
-                <button className="bg-black-background-primary font-quicksand font-semibold rounded-full px-10 text-white flex items-center py-3 mt-10 group transition-all duration-300">
-                    Get Started
-                    <span className="ml-2 transform transition-transform duration-300 group-hover:translate-x-1">
-                        <ArrowRight />
-                    </span>
-                </button>
+                <Link href='/signup'>
+                    <button className="bg-black-background-primary font-quicksand font-semibold rounded-full sm:px-5 lg: px-10 sm:py-2  py-3 text-white flex items-center mt-10 group transition-all duration-300">
+                        Get Started
+                        <span className="ml-2 transform transition-transform duration-300 group-hover:translate-x-1">
+                            <ArrowRight />
+                        </span>
+                    </button>
+                </Link>
                 <p className="text-lg text-black-text-secondary font-comfortaa mt-4">#It's about time</p>
 
                 <Marquee className="mt-12">

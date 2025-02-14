@@ -3,30 +3,31 @@ import EmailCollection from "@/components/EmailCollection";
 import HeroSection from "@/components/ui/landingPage/HeroSection";
 import AboutUsSection from "@/components/ui/landingPage/AboutUsSection";
 import ProcessSection from "@/components/ui/landingPage/ProcessSection";
+import Link from "next/link";
 
 
 export default function Home() {
   return (
     <>
       <nav className="flex px-6 justify-between items-center py-4 bg-background-primary">
-        <span className="font-quicksand font-bold text-2xl text-black-background-primary ">FlowDSA</span>
-        <ul className="hidden lg:flex lg:text-lg items-center font-comfortaa gap-8 text-base">
-          <DarkmodeButton />
-        </ul>
-        <button className="bg-black-background-primary rounded-full px-10 py-2 text-white">Sign up</button>
+        <span className="font-quicksand font-bold sm:text-lg md:text-xl lg:text-2xl text-black-background-primary ">FlowDSA</span>
+        <Link href='/signup'>
+          <button className="font-quicksand font-semibold bg-black-background-primary rounded-full px-5 md:px-10 py-1 md:py-2 text-sm md:text-lg text-white">Sign up</button>
+
+        </Link>
       </nav>
 
       {/* Hero Section */}
 
-      <HeroSection/>
+      <HeroSection />
 
       {/* About us section */}
 
-      <AboutUsSection/>
+      <AboutUsSection />
 
       {/* How will the process work section */}
 
-      <ProcessSection/>
+      <ProcessSection />
 
       {/*Collect Email section*/}
       <section className="h-2/5 bg-background-secondary pb-24">
