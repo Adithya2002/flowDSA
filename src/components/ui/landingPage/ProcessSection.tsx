@@ -3,8 +3,8 @@ import React from 'react'
 const ProcessSection = () => {
     return (
         <>
-            <section className="min-h-screen border-t border-black bg-background-secondary font-quicksand flex flex-col items-center">
-                <h1 className="font-raleway  mt-16 text-3xl text-black-background-primary">How will our process work?</h1>
+            <section className="min-h-screen border-t border-black bg-background-secondary font-quicksand flex flex-col items-center px-2">
+                <h1 className="font-raleway  mt-16 text-3xl text-black-background-primary text-center">How will our process work?</h1>
                 <div className="border-t mt-8 border-black w-80"></div>
 
                 <div className="mt-12 px-16 md:px-32 lg:px-48 xl:px-80">
