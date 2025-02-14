@@ -6,7 +6,7 @@ import Link from 'next/link';
 const HeroSection = () => {
     return (
         <>
-            <section className="px-6 flex flex-col items-center text-center bg-background-primary min-h-screen pt-12">
+            <section className="px-6 flex flex-col items-center text-center bg-background-primary h-auto lg:h-[90vh] pt-12 pb-8">
                 <p className="text-lg text-black-text-secondary font-comfortaa">#Finish your journey now</p>
                 <h1 className="text-2xl  md:text-3xl lg:text-5xl font-raleway text-black lg:leading-snug mt-4">Complete your unfinished <br /> Data structures and Algorithms Journey</h1>
                 <p className="text-sm sm:text-md md:text-lg lg:text-2xl font-quicksand text-black-text-primary font-semibold mt-8">We know how many times you have "started" doing DSA. <br /> Let us help you finish it this time</p>
